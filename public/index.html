@@ -12,33 +12,37 @@
 <body>
   <header class="w-full">
     <nav class="bg-white border px-4 py-2">
-      <div class="container flex justify-between">
-        <a class="flex" href="#">
+      <div class="flex flex-wrap justify-between items-center px-4">
+
+        <a class="flex items-center" href="#">
           <img class="h-8" src="../public/img/logo.PNG" alt="logo">
           <span class="text-xl text-gray-500 font-medium ">catapu</span>
         </a>
 
-        <button class="bg-orange-500 inline-flex items-center border px-2">
-          <span class="text-white font-bold">Menu</span>
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path class="text-white font-bold" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-          </svg>
-        </button>
+        <div class="flex items-center">
+          <button class="bg-tertiary inline-flex items-center border px-2">
+            <span class="text-white font-bold">Menu</span>
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path class="text-white font-bold" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+  
+        </div>
 
-        <div class="hidden">
-          <ul>
+        <div class="justify-between items-center w-full">
+          <ul class="flex flex-col mt-4 font-medium">
             <li>
-              <a href="#">filosofía</a>
+              <a href="#" class="block py-2 pr-3 pl-3 border-b">filosofía</a>
             </li>
 
             <li>
-              <a href="#">quiero comprar</a>
+              <a href="#" class="block py-2 pr-3 pl-3 border-b font-bold text-orange-500">quiero comprar</a>
             </li>
             <li>
-              <a href="#">servicio técnico</a>
+              <a href="#" class="block py-2 pr-3 pl-3 border-b">servicio técnico</a>
             </li>
             <li>
-              <a href="#">contacto</a>
+              <a href="#" class="block py-2 pr-3 pl-3 font-bold text-orange-500">contacto</a>
             </li>
           </ul>
         </div>
